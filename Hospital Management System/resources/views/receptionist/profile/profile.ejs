@@ -1,0 +1,28 @@
+<html>
+<head>
+	<title>nurses Profile | Page</title>
+</head>
+<body>
+	<div align="center">
+		<h1>nurse <%=name%></h1>
+	</div>
+		
+		<br/><br/><br/>
+		<br/><br/><br/>
+		<% for(var i=0;i<list.length;i++){ if(list[i].nid==name) break;} %>
+		
+		<h3>ID      : <%= list[i].nid %></h3>
+		<h3>Name    : <%= list[i].nname %></h3>
+		<h3>Phone No: <%= list[i].nphone %></h3>
+		<h3>Address : <%= list[i].naddress %></h3>
+		<h3>Room    : <%= list[i].nroom %></h3>
+	
+		
+
+		
+		
+		<br/><br/><br/>
+		<h3><a href="/nurse">Back  </a></h3>
+		
+</body>
+</html>

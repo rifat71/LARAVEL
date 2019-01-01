@@ -1,0 +1,28 @@
+<html>
+<head>
+	<title>Edit | Page</title>
+</head>
+<body>
+	<form method="post">
+		<input type="hidden" name="username" value="<%=username %>"/>
+		<table>
+			<tr>
+				<td>Employee Name</td>
+				<td><input type="text" name="name" value="<%=name%>"/></td>
+			</tr>
+			<tr>
+				<td>Employee contact</td>
+				<td><input type="text" name="contact" value="<%=contact %>"/></td>
+			</tr>
+			<tr>
+				<td>Employee Password</td>
+				<td><input type="password" name="password" value="<%=password%>"//></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td><input type="submit" value="Save" /></td>
+			</tr>
+		</table>
+	</form>
+</body>
+</html>
